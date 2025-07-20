@@ -1,7 +1,7 @@
 name: Scrape Site Tables
 
 on:
-  workflow_dispatch: # manual trigger
+  workflow_dispatch:
   schedule:
     - cron: '0 2 * * *' # daily at 2 AM UTC
 
@@ -13,7 +13,7 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Setup Node.js
+      - name: Setup Node.js (23f2001992@ds.study.iitm.ac.in)
         uses: actions/setup-node@v4
         with:
           node-version: '20'
