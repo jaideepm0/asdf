@@ -5,8 +5,16 @@ async function scrape() {
     const page = await browser.newPage();
 
     const urls = [
-        'https://example.com/page1',
-        'https://example.com/page2',
+        'https://sanand0.github.io/tdsdata/js_table/?seed=18',
+        'https://sanand0.github.io/tdsdata/js_table/?seed=19',
+        'https://sanand0.github.io/tdsdata/js_table/?seed=20',
+        'https://sanand0.github.io/tdsdata/js_table/?seed=21',
+        'https://sanand0.github.io/tdsdata/js_table/?seed=22',
+        'https://sanand0.github.io/tdsdata/js_table/?seed=23',
+        'https://sanand0.github.io/tdsdata/js_table/?seed=24',
+        'https://sanand0.github.io/tdsdata/js_table/?seed=25',
+        'https://sanand0.github.io/tdsdata/js_table/?seed=26',
+        'https://sanand0.github.io/tdsdata/js_table/?seed=27'
     ];
 
     let grandTotal = 0;
