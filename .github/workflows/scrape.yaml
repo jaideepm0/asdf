@@ -2,8 +2,6 @@ name: Scrape Site Tables
 
 on:
   workflow_dispatch:
-  schedule:
-    - cron: '0 2 * * *' # daily at 2 AM UTC
 
 jobs:
   scrape:
